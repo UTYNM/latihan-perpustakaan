@@ -24,21 +24,21 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+                Jenis Buku
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Fiksi</a></li>
+                <li><a class="dropdown-item" href="#">Cerita Rakyat</a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="#">Dongeng</a></li>
               </ul>
             </li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
+            </li> --}}
           </ul>
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <input class="form-control me-2" type="search" placeholder="Cari Buku" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </div>
@@ -51,15 +51,15 @@
             <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">KUMPULAN BUKU</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Kumpulan Buku Di Perpustakaan Online.</p>
                   <a href="{{url('buku/tambah')}}" class="btn btn-primary">Tambah Buku</a>
                   <table class="table table-striped table-hover">
                     <thead>
                       <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
+                        <th scope="col">No</th>
+                        <th scope="col">Judul Buku</th>
+                        <th scope="col">Jumah Buku</th>
+                        <th scope="col">Aksi</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -67,18 +67,7 @@
                         <th scope="row">1</th>
                         <td>Mark</td>
                         <td>Otto</td>
-                        <td>@mdo</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
+                        <td>-</td>
                       </tr>
                     </tbody>
                   </table>
